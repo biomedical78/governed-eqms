@@ -3,11 +3,13 @@
 Open-source governed agentic electronic quality management system (eQMS).
 
 ## Scope
+Four modules:
 - Organization chart with role-based authorization: authority to review, approve and act is assigned by each person's role in quality, regulatory and operations.
 - KPI dashboard for quality and operational performance.
-- Agent core with bounded connectors to each module.
-- CAPA (corrective and preventive action) module.
-- Document control module.
+- Kappa AI decision-maker module: acts inside the organization chart and KPI dashboard, within role-based authority, through bounded connectors, with human sign-off gates.
+- Document control (documentation) module.
+
+Supporting documents, schemas and the evidence format are published under CC BY 4.0 in [governed-eqms-docs](https://github.com/biomedical78/governed-eqms-docs).
 
 ## Deployment
 Designed to run on local NVIDIA DGX-class hardware at the customer site.
