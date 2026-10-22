@@ -12,7 +12,9 @@ Four modules:
 Supporting documents, schemas and the evidence format are published under CC BY 4.0 in [governed-eqms-docs](https://github.com/biomedical78/governed-eqms-docs).
 
 ## Deployment
-Designed to run on local NVIDIA DGX-class hardware at the customer site.
+- **Pilot:** runs on Spearhead-owned NVIDIA DGX Spark hardware at the pilot manufacturer's site. Data stays on site.
+- **Hosted service:** Spearhead Consulting LLC hosts the system on AWS as a managed service billed per token. In the hosted offering, the eQMS software and databases run in Spearhead's AWS cloud. Token billing never governs authorization, which comes from the organization chart by role.
+- **Self-hosting:** clone the open-source repositories, provision your own DGX-class hardware, and follow this README and the installation instructions.
 
 ## Status
 Initial release in preparation. Source code will be published in this repository.
